@@ -8,8 +8,13 @@ function App() {
   return (
     <div className="container">
         <h4 style = {{color : "red", fontSize:"30px"}}>App Component</h4>
-        <Navbar></Navbar>
-        <User></User>
+        <Navbar title = "Header"></Navbar>
+        <User
+            name = "Mert ÇELİK"
+            salary = "5050"
+            department = "IT"
+
+        ></User>
 
     </div>
   );
